@@ -1,0 +1,200 @@
+.theme-light .update {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.theme-light .update .wrapper {
+  margin: auto;
+  width: 40%;
+  height: 70%;
+  background-color: white;
+  padding: 50px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+  position: relative;
+}
+@media (max-width: 480px) {
+  .theme-light .update .wrapper {
+    width: 100%;
+    height: 100%;
+  }
+}
+.theme-light .update .wrapper h1 {
+  color: lightgrey;
+}
+@media (max-width: 480px) {
+  .theme-light .update .wrapper h1 {
+    font-size: 20px;
+  }
+}
+.theme-light .update .wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.theme-light .update .wrapper form .files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.theme-light .update .wrapper form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: gray;
+  font-size: 14px;
+}
+.theme-light .update .wrapper form label .imgContainer {
+  position: relative;
+}
+.theme-light .update .wrapper form label .imgContainer img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.theme-light .update .wrapper form label .imgContainer .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 30px;
+  color: lightgray;
+  cursor: pointer;
+}
+.theme-light .update .wrapper form input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  color: gray;
+  background-color: transparent;
+}
+.theme-light .update .wrapper form button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #5271ff;
+}
+.theme-light .update .wrapper .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border: none;
+  background-color: #f0544f;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+.theme-dark .update {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.theme-dark .update .wrapper {
+  margin: auto;
+  width: 40%;
+  height: 70%;
+  background-color: #222;
+  padding: 50px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+  position: relative;
+}
+@media (max-width: 480px) {
+  .theme-dark .update .wrapper {
+    width: 100%;
+    height: 100%;
+  }
+}
+.theme-dark .update .wrapper h1 {
+  color: lightgrey;
+}
+@media (max-width: 480px) {
+  .theme-dark .update .wrapper h1 {
+    font-size: 20px;
+  }
+}
+.theme-dark .update .wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.theme-dark .update .wrapper form .files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.theme-dark .update .wrapper form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: gray;
+  font-size: 14px;
+}
+.theme-dark .update .wrapper form label .imgContainer {
+  position: relative;
+}
+.theme-dark .update .wrapper form label .imgContainer img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.theme-dark .update .wrapper form label .imgContainer .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 30px;
+  color: lightgray;
+  cursor: pointer;
+}
+.theme-dark .update .wrapper form input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #444;
+  color: gray;
+  background-color: transparent;
+}
+.theme-dark .update .wrapper form button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #5271ff;
+}
+.theme-dark .update .wrapper .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border: none;
+  background-color: #f0544f;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}/*# sourceMappingURL=update.css.map */
